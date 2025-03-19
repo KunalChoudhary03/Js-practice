@@ -46,3 +46,41 @@ do{
     }
     userInput = prompt("you want to run second time or not").toLowerCase();
 }while(userInput === 'yes');
+
+// const prompt  = require("prompt-sync")();
+// let n = prompt("Enter a number");
+// let copy = n
+// let ans = 0;
+// while(n>0){
+//     let  dig = n % 10;
+//     let fact = 1;
+//     for(let i=1;i<=dig;i++){
+//         fact = fact *i;
+// }
+// ans += fact;
+// n = Math.floor(n/10);
+// }
+// if(copy ==ans){
+//     console.log("strong number");
+// }
+// else{
+//     console.log('not strong number');
+    
+// }
+
+let prompt = require("prompt-sync")();
+let size  = Number(prompt("Enter array's size"));
+let arr = new Array(size);
+let sum = 0;
+for(let i = 0; i<arr.length;i++){
+  arr[i] = Number(prompt("Enter element"));
+  sum = sum + arr[i];
+  max = arr[0];
+  if(arr[i]> max){
+    max = arr[i]
+  }
+  
+}
+console.log(max);
+
+console.log("Sum " + sum);
