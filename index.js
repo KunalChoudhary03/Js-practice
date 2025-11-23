@@ -28,3 +28,9 @@ async function lopping(){
  }
 }
 lopping();
+
+// package you need to install :---
+// npm init -y 
+// npm i express dotenv
+// npm i @google/generative-ai
+//npm i prompt-sync
