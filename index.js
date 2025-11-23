@@ -34,3 +34,4 @@ lopping();
 // npm i express dotenv
 // npm i @google/generative-ai
 //npm i prompt-sync
+// To run the code in terminal use node index.js
