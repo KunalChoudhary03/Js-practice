@@ -29,9 +29,12 @@ async function lopping(){
 }
 lopping();
 
+// Instruction
 // package you need to install :---
 // npm init -y 
 // npm i express dotenv
 // npm i @google/generative-ai
 //npm i prompt-sync
 // To run the code in terminal use node index.js
+// create a file name it  .env and add variable name GEMINI_API_KEY=<YOUR_API_KEY>
+
